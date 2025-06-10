@@ -1,0 +1,553 @@
+[
+  {
+    "name": "iPhone 15 Pro Max",
+    "description": "Latest Apple iPhone with A17 chip.",
+    "price": 1199,
+    "category": "Electronics",
+    "stock": 15,
+    "images": [
+      "https://res.cloudinary.com/duoigsila/image/upload/v1741127955/iPhone_15_Pro_Max_xhm9os.jpg",
+      "https://res.cloudinary.com/duoigsila/image/upload/v1745847153/iphone-15-pro-natural_natural_titanium_5_qblu8r.jpg",
+      "https://res.cloudinary.com/duoigsila/image/upload/v1745847159/iphone-15-pro-max_bbax34.png"
+    ],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Amazing performance, the camera quality is top-notch!"
+      },
+      {
+        "rating": 4,
+        "comment": "Great phone, but a bit expensive."
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy S23 Ultra",
+    "description": "Flagship Samsung phone with 200MP camera.",
+    "price": 1099,
+    "category": "Electronics",
+    "stock": 20,
+    "images": [
+      "https://res.cloudinary.com/duoigsila/image/upload/v1741127970/Samsung_Galaxy_S23_Ultra_rqiewi.jpg",
+      "https://res.cloudinary.com/duoigsila/image/upload/v1745847126/71iBKcLHXFL._AC_SL1500__qdxmee.jpg",
+      "https://res.cloudinary.com/duoigsila/image/upload/v1745847124/51UUgAdQSFL_rcvgh8.jpg"
+    ],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Incredible camera and performance. Worth every penny!"
+      },
+      {
+        "rating": 4,
+        "comment": "Very good phone, but the software can be a bit slow at times."
+      }
+    ]
+  },
+  {
+    "name": "Google Pixel 8 Pro",
+    "description": "Pure Android experience with AI-powered camera.",
+    "price": 899,
+    "category": "Electronics",
+    "stock": 25,
+    "images": [
+      "https://res.cloudinary.com/duoigsila/image/upload/v1741127944/Google_Pixel_8_Pro_hrgqrw.jpg",
+      "https://res.cloudinary.com/duoigsila/image/upload/v1745847133/71XEjCc4yLL_xceuft.jpg"
+    ],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Best Android phone with amazing camera performance."
+      },
+      {
+        "rating": 3,
+        "comment": "Good phone, but battery life could be improved."
+      }
+    ]
+  },
+  {
+    "name": "Sony WH-1000XM5 Headphones",
+    "description": "Industry-leading noise-canceling headphones with premium sound quality.",
+    "price": 398,
+    "category": "Electronics",
+    "stock": 25,
+    "images": [
+      "https://res.cloudinary.com/duoigsila/image/upload/v1741127964/Sony_WH-1000XM5_Headphones_lavirn.jpg",
+      "https://res.cloudinary.com/duoigsila/image/upload/v1745847133/6169m-oKFEL_ohagvc.jpg"
+    ],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Best noise-canceling headphones, super comfortable!"
+      },
+      {
+        "rating": 4,
+        "comment": "Great sound, but a little pricey."
+      }
+    ]
+  },
+  {
+    "name": "Apple iPad Pro 12.9-inch",
+    "description": "Powerful tablet with M2 chip and Liquid Retina XDR display.",
+    "price": 1099,
+    "category": "Electronics",
+    "stock": 18,
+    "images": [
+      "https://res.cloudinary.com/duoigsila/image/upload/v1741127942/Apple_iPad_Pro_12.9-inch_jtl4n3.jpg",
+      "https://res.cloudinary.com/duoigsila/image/upload/v1745847140/grty_1_xt52d9.jpg"
+    ],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Incredible display and performance. Best tablet I've used!"
+      },
+      {
+        "rating": 4,
+        "comment": "Great tablet, but the price is a little high."
+      }
+    ]
+  },
+  {
+    "name": "Levi’s 511 Slim Fit Jeans",
+    "description": "Classic Levi's jeans with a modern slim fit.",
+    "price": 60,
+    "category": "Fashion",
+    "stock": 50,
+    "images": [
+      "https://res.cloudinary.com/duoigsila/image/upload/v1741127965/Levi_s_511_Slim_Fit_Jeans_pydnob.jpg",
+      "https://res.cloudinary.com/duoigsila/image/upload/v1745847158/levis-511-slim-fit-jeans-dark-wash-p2571-90398_image_zspjg7.jpg"
+    ],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Perfect fit and great quality jeans!"
+      },
+      {
+        "rating": 4,
+        "comment": "Nice jeans, but they can be a bit tight around the waist."
+      }
+    ]
+  },
+  {
+    "name": "Nike Men's Hoodie",
+    "description": "Soft fleece hoodie for comfort and warmth.",
+    "price": 55,
+    "category": "Fashion",
+    "stock": 40,
+    "images": [
+      "https://res.cloudinary.com/duoigsila/image/upload/v1741127957/Nike_Men_s_Hoodie_dedgdx.jpg",
+      "https://res.cloudinary.com/duoigsila/image/upload/v1745847120/51FlbiZSe7L._US500__zk3rtc.jpg"
+    ],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Super comfortable and warm hoodie, perfect for winter!"
+      },
+      {
+        "rating": 3,
+        "comment": "Nice hoodie but the material could be a little thicker."
+      }
+    ]
+  },
+  {
+    "name": "Adidas Running Shoes",
+    "description": "Lightweight and breathable running shoes.",
+    "price": 80,
+    "category": "Fashion",
+    "stock": 30,
+    "images": [
+      "https://res.cloudinary.com/duoigsila/image/upload/v1741127940/Adidas_Running_Shoes_ftuqcd.jpg",
+      "https://res.cloudinary.com/duoigsila/image/upload/v1745847136/adidas-running-shoes-for-men-650yyw-1_bggxgs.jpg"
+    ],
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Great for running, but they could use more arch support."
+      },
+      {
+        "rating": 5,
+        "comment": "Very lightweight and comfortable. Best running shoes I've had!"
+      }
+    ]
+  },
+  {
+    "name": "Columbia Women's Rain Jacket",
+    "description": "Waterproof and breathable rain jacket for outdoor activities.",
+    "price": 70,
+    "category": "Fashion",
+    "stock": 25,
+    "images": [
+      "https://res.cloudinary.com/duoigsila/image/upload/v1741127944/Columbia_Women_s_Rain_Jacket_v0jm8n.jpg",
+      "https://res.cloudinary.com/duoigsila/image/upload/v1745847141/17250676_source_1678818237_pglwyk.jpg",
+      "https://res.cloudinary.com/duoigsila/image/upload/v1745847128/236414_cebrv9.jpg"
+    ],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Keeps me dry and is very lightweight. Perfect for hiking."
+      },
+      {
+        "rating": 4,
+        "comment": "Great jacket, but I wish the hood was a little larger."
+      }
+    ]
+  },
+  {
+    "name": "Ray-Ban Aviator Sunglasses",
+    "description": "Classic aviator sunglasses with UV protection.",
+    "price": 150,
+    "category": "Fashion",
+    "stock": 35,
+    "images": [
+      "https://res.cloudinary.com/duoigsila/image/upload/v1741127959/Ray-Ban_Aviator_Sunglasses_mlece5.jpg",
+      "https://res.cloudinary.com/duoigsila/image/upload/v1745847153/23308187_0_wflw9k.jpg"
+    ],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Iconic sunglasses that never go out of style!"
+      },
+      {
+        "rating": 4,
+        "comment": "A bit expensive, but the quality is great."
+      }
+    ]
+  },
+  {
+    "name": "IKEA Malm Bed Frame",
+    "description": "Stylish and durable bed frame with storage options.",
+    "price": 350,
+    "category": "Home & Furniture",
+    "stock": 10,
+    "images": [
+      "https://res.cloudinary.com/duoigsila/image/upload/v1741127950/IKEA_Malm_Bed_Frame_gimpft.jpg",
+      "https://res.cloudinary.com/duoigsila/image/upload/v1741127950/IKEA_Malm_Bed_Frame_gimpft.jpg"
+    ],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Sturdy and stylish bed frame with a great price."
+      },
+      {
+        "rating": 4,
+        "comment": "Love the storage options, but assembly was a bit tricky."
+      }
+    ]
+  },
+  {
+    "name": "Dyson V15 Vacuum Cleaner",
+    "description": "High-power vacuum with laser dust detection.",
+    "price": 650,
+    "category": "Home & Furniture",
+    "stock": 8,
+    "images": [
+      "https://res.cloudinary.com/duoigsila/image/upload/v1741127946/Dyson_V15_Vacuum_Cleaner_zxts1u.jpg",
+      "https://res.cloudinary.com/duoigsila/image/upload/v1745847160/V15_-_Shop_all_hero_module_HEPA_LB-V15-US_v2_u9ztah.jpg"
+    ],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Unmatched suction power! My floors have never been cleaner."
+      },
+      {
+        "rating": 4,
+        "comment": "Great vacuum, but the price is a little steep."
+      }
+    ]
+  },
+  {
+    "name": "Serta Memory Foam Mattress",
+    "description": "Ultra-comfortable memory foam mattress for restful sleep.",
+    "price": 450,
+    "category": "Home & Furniture",
+    "stock": 12,
+    "images": [
+      "https://res.cloudinary.com/duoigsila/image/upload/v1741127971/Serta_Memory_Foam_Mattress_sipdxh.jpg",
+      "https://res.cloudinary.com/duoigsila/image/upload/v1745847163/Serta-iComfort-Blue-Max-1000-13-inch-Plush-King-size-Gel-Memory-Foam-Set-plus-300-Gift-Card-8e2c25fc-99b2-496e-a4d1-28c8054fbc1e_600_h5knuw.jpg"
+    ],
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "The best mattress I've ever slept on. Extremely comfortable!"
+      },
+      {
+        "rating": 4,
+        "comment": "Great mattress, but it could be a little firmer."
+      }
+    ]
+  },
+  {
+    "name": "Sauder Computer Desk",
+    "description": "Spacious computer desk with ample storage space.",
+    "price": 120,
+    "category": "Home & Furniture",
+    "stock": 15,
+    "images": [
+      "https://res.cloudinary.com/duoigsila/image/upload/v1741127965/Sauder_Computer_Desk_lrwrhw.jpg",
+      "https://res.cloudinary.com/duoigsila/image/upload/v1745847163/Serta-iComfort-Blue-Max-1000-13-inch-Plush-King-size-Gel-Memory-Foam-Set-plus-300-Gift-Card-8e2c25fc-99b2-496e-a4d1-28c8054fbc1e_600_h5knuw.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "John Doe",
+        "rating": 4,
+        "comment": "Great desk, very spacious and easy to assemble."
+      },
+      {
+        "user": "Jane Smith",
+        "rating": 5,
+        "comment": "Love the design and storage! Perfect for my home office."
+      }
+    ]
+  },
+  {
+    "name": "Ashley Recliner Chair",
+    "description": "Comfortable and stylish recliner chair for living rooms.",
+    "price": 300,
+    "category": "Home & Furniture",
+    "stock": 20,
+    "images": [
+      "https://res.cloudinary.com/duoigsila/image/upload/v1741127944/Ashley_Recliner_Chair_vjqnjx.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Michael Johnson",
+        "rating": 5,
+        "comment": "So comfortable and easy to adjust. Perfect for relaxing."
+      },
+      {
+        "user": "Sarah Lee",
+        "rating": 4,
+        "comment": "The chair is very stylish, but I wish it had more padding."
+      }
+    ]
+  },
+  {
+    "name": "Instant Pot Duo 7-in-1",
+    "description": "Multi-functional pressure cooker for quick meals.",
+    "price": 100,
+    "category": "Kitchen & Appliances",
+    "stock": 35,
+    "images": [
+      "https://res.cloudinary.com/duoigsila/image/upload/v1741127954/Instant_Pot_Duo_7-in-1_fvbc7o.jpg",
+      "https://res.cloudinary.com/duoigsila/image/upload/v1745847160/VP2QZ_SQ2_0000000166_STAINLESS_STEEL_SLd_r4zaue.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Tommy B",
+        "rating": 5,
+        "comment": "A game-changer for quick dinners. So versatile!"
+      },
+      {
+        "user": "Nancy Wilson",
+        "rating": 4,
+        "comment": "Great for making soups, but a bit loud."
+      }
+    ]
+  },
+  {
+    "name": "KitchenAid Stand Mixer",
+    "description": "Powerful stand mixer for baking needs.",
+    "price": 399,
+    "category": "Kitchen & Appliances",
+    "stock": 15,
+    "images": [
+      "https://res.cloudinary.com/duoigsila/image/upload/v1741127951/KitchenAid_Stand_Mixer_cwstdh.jpg",
+      "https://res.cloudinary.com/duoigsila/image/upload/v1745847157/kitchenaid-5-quart-stand-mixer-with-glass-bowl-and-flex-d-20230927142614783_848658_alt1_sgpmmg.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Amanda Cook",
+        "rating": 5,
+        "comment": "Love this mixer! Makes baking so much easier."
+      },
+      {
+        "user": "Jason D",
+        "rating": 5,
+        "comment": "The best mixer I've ever owned. Worth every penny."
+      }
+    ]
+  },
+  {
+    "name": "Nespresso Vertuo Coffee Maker",
+    "description": "Single-serve coffee and espresso maker with automatic brewing.",
+    "price": 180,
+    "category": "Kitchen & Appliances",
+    "stock": 25,
+    "images": [
+      "https://res.cloudinary.com/duoigsila/image/upload/v1741127959/Nespresso_Vertuo_Coffee_Maker_hbjwlw.jpg",
+      "https://res.cloudinary.com/duoigsila/image/upload/v1745847139/file_rgkzhq.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Emma R",
+        "rating": 5,
+        "comment": "Makes delicious coffee! Easy to use and stylish."
+      },
+      {
+        "user": "Kyle P",
+        "rating": 4,
+        "comment": "Great coffee, but the pods are a bit expensive."
+      }
+    ]
+  },
+  {
+    "name": "Cuisinart Air Fryer Toaster Oven",
+    "description": "Versatile air fryer and toaster oven for healthier cooking.",
+    "price": 250,
+    "category": "Kitchen & Appliances",
+    "stock": 18,
+    "images": [
+      "https://res.cloudinary.com/duoigsila/image/upload/v1741127956/Cuisinart_Air_Fryer_Toaster_Oven_zens5m.jpg",
+      "https://res.cloudinary.com/duoigsila/image/upload/v1745847155/cuisinart-toa-70-toaster-oven-air-fryer-onion-rings-1200_axsulx.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Lisa M",
+        "rating": 5,
+        "comment": "Perfect for air frying, baking, and toasting. Love it!"
+      },
+      {
+        "user": "Dan T",
+        "rating": 4,
+        "comment": "Works well, but it's a bit bulky for small kitchens."
+      }
+    ]
+  },
+  {
+    "name": "Blendtec Total Blender",
+    "description": "High-performance blender for smoothies and soups.",
+    "price": 400,
+    "category": "Kitchen & Appliances",
+    "stock": 20,
+    "images": [
+      "https://res.cloudinary.com/duoigsila/image/upload/v1741127948/Blendtec_Total_Blender_jsuuks.jpg",
+      "https://res.cloudinary.com/duoigsila/image/upload/v1745847159/total_blender_new_3-510x510_rfdtsk.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "David L",
+        "rating": 5,
+        "comment": "The best blender I have ever used. Super powerful."
+      },
+      {
+        "user": "Olivia C",
+        "rating": 4,
+        "comment": "Great blender, but it's a bit noisy."
+      }
+    ]
+  },
+  {
+    "name": "PlayStation 5",
+    "description": "Next-gen console with immersive gaming experience.",
+    "price": 499,
+    "category": "Gaming & Accessories",
+    "stock": 20,
+    "images": [
+      "https://res.cloudinary.com/duoigsila/image/upload/v1741127962/PlayStation_5_inuj5i.jpg",
+      "https://res.cloudinary.com/duoigsila/image/upload/v1745847153/hero-image.fit_lim.v1678673435_sz0gs0.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Nick F",
+        "rating": 5,
+        "comment": "Amazing gaming experience, the graphics are incredible!"
+      },
+      {
+        "user": "Rachel G",
+        "rating": 4,
+        "comment": "Great console, but the availability is an issue."
+      }
+    ]
+  },
+  {
+    "name": "Xbox Series X",
+    "description": "Powerful console for 4K gaming and streaming.",
+    "price": 499,
+    "category": "Gaming & Accessories",
+    "stock": 15,
+    "images": [
+      "https://res.cloudinary.com/duoigsila/image/upload/v1741127967/Xbox_Series_X_xnajpb.jpg",
+      "https://res.cloudinary.com/duoigsila/image/upload/v1745847120/61igALxr2pL._AC_UF1000_1000_QL80__knwn8q.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Charlie S",
+        "rating": 5,
+        "comment": "Fantastic performance, the speed is unmatched!"
+      },
+      {
+        "user": "Lucas B",
+        "rating": 4,
+        "comment": "Great console, but it could use more exclusive games."
+      }
+    ]
+  },
+  {
+    "name": "Razer DeathAdder V2 Mouse",
+    "description": "High-precision gaming mouse with customizable buttons.",
+    "price": 70,
+    "category": "Gaming & Accessories",
+    "stock": 40,
+    "images": [
+      "https://res.cloudinary.com/duoigsila/image/upload/v1741127965/Razer_DeathAdder_V2_Mouse_vvgwzx.jpg",
+      "https://res.cloudinary.com/duoigsila/image/upload/v1745847119/41iLtLRTsZL._AC_UF894_1000_QL80__vs6lh5.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Ben A",
+        "rating": 5,
+        "comment": "Great mouse, very responsive and comfortable to use."
+      },
+      {
+        "user": "Sophie H",
+        "rating": 4,
+        "comment": "Good precision, but the shape takes some getting used to."
+      }
+    ]
+  },
+  {
+    "name": "Logitech G Pro X Gaming Headset",
+    "description": "High-quality gaming headset with Blue Voice technology.",
+    "price": 130,
+    "category": "Gaming & Accessories",
+    "stock": 35,
+    "images": [
+      "https://res.cloudinary.com/duoigsila/image/upload/v1741127956/Logitech_G_Pro_X_Gaming_Headset_kawewq.jpg",
+      "https://res.cloudinary.com/duoigsila/image/upload/v1745847120/51AQH-FCH0L._AC_UF350_350_QL80__xfdgxz.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Zach P",
+        "rating": 5,
+        "comment": "Clear sound and great mic quality. Perfect for gaming."
+      },
+      {
+        "user": "Amy F",
+        "rating": 4,
+        "comment": "Comfortable and great sound, but a bit expensive."
+      }
+    ]
+  },
+  {
+    "name": "SteelSeries Apex Pro Mechanical Keyboard",
+    "description": "Customizable mechanical keyboard with adjustable actuation switches.",
+    "price": 200,
+    "category": "Gaming & Accessories",
+    "stock": 25,
+    "images": [
+      "https://res.cloudinary.com/duoigsila/image/upload/v1741127970/SteelSeries_Apex_Pro_Mechanical_Keyboard_na2eyb.png",
+      "https://res.cloudinary.com/duoigsila/image/upload/v1745847135/73d750a8-6886-4537-b6f9-87cf63adfeb2_iszxxi.jpg"
+    ],
+    "reviews": [
+      {
+        "user": "Joshua W",
+        "rating": 5,
+        "comment": "Great keyboard with responsive keys. Highly customizable."
+      },
+      {
+        "user": "Kaitlyn L",
+        "rating": 4,
+        "comment": "Love the feel of the switches, but a bit on the pricey side."
+      }
+    ]
+  }
+]
