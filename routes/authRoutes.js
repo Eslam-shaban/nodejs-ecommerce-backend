@@ -15,6 +15,7 @@ router.post('/login', validateLogin, loginUser)
 
 //  Admin-only route to get all users
 router.get("/", protect, isAdmin, getAllUsers);
+// each user can view his profile
 router.get("/profile", protect, getUserProfile);
 
 export default router;

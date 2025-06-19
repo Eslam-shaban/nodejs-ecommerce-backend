@@ -20,8 +20,6 @@ import Product from '../models/Product.js';
 //     }
 // };
 
-
-
 export const createOrder = async (req, res) => {
     try {
         const { orderItems, shippingAddress, paymentMethod, totalPrice } = req.body;
@@ -64,7 +62,6 @@ export const createOrder = async (req, res) => {
         res.status(500).json({ success: false, message: error.message });
     }
 };
-
 
 // get all orders (Admin only)
 export const getAllOrders = async (req, res) => {

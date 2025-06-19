@@ -7,7 +7,7 @@ dotenv.config();
 export const protect = async (req, res, next) => {
 
     const token = req.headers.authorization?.split(" ")[1]; // Get token from headers
-
+    // console.log("bk token", token)
     // if we using cookies instead of localStorage
     // const token = req.cookies.token;
     // console.log("Token from cookies:", req.cookies.token);
@@ -28,6 +28,7 @@ export const protect = async (req, res, next) => {
         next();
     }
     catch (error) {
+        // 401:Not authorized: Not authenticated	
         res.status(401).json({ success: false, message: "Not authorized, invalid token" });
     }
 };
@@ -36,6 +37,7 @@ export const isAdmin = (req, res, next) => {
     if (req.user && req.user.isAdmin) {
         next();
     } else {
+        // 403:Forbidden: Authenticated, but no permission
         res.status(403).json({ success: false, message: "Not authorized, admin access required" });
     }
 }

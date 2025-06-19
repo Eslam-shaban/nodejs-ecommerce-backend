@@ -62,14 +62,14 @@ export const getProductById = async (req, res) => {
 // Create New Product (Admin Only)
 export const createProduct = async (req, res) => {
     try {
-        const { name, description, price, category, stock, image } = req.body;
+        const { name, description, price, category, stock, images } = req.body;
         const newProduct = new Product({
             name,
             description,
             price,
             category,
             stock,
-            image,
+            images,
         });
         // console.log(newProduct);
         const savedProduct = await newProduct.save();
@@ -142,21 +142,46 @@ export const getCategories = async (req, res) => {
 
 export const getProductsInCategory = async (req, res) => {
     try {
+        /*
         // if using query params 
         // const { name } = req.query; // Extract category from query params
         // if (!name) {
         //     return res.status(400).json({ success: false, message: "Category is required" });
         // }
         // console.log("Category received:", name); // Debugging
+*/
+
+        const { page = 1, limit = 10 } = req.query;  // Default to page 1 and limit 10
+        // Calculate skip based on page number and limit
+        const skip = (page - 1) * limit;
 
         const category = decodeURIComponent(req.params.category);
-        const products = await Product.find({ category });
+        // Fetch products with pagination (skip and limit)
+        const products = await Product.find({ category })
+            .skip(skip)  // Skip products based on current page
+            .limit(Number(limit));  // Limit the number of products per page
+        ;
+
+        // Get total number of products for pagination
+        const totalProducts = await Product.countDocuments({ category });
 
         if (!products.length) {
             return res.status(404).json({ success: false, message: "No products found in this category" });
         }
 
-        res.json({ success: true, products });
+        // Calculate total pages
+        const totalPages = Math.ceil(totalProducts / limit);
+
+        res.status(200).json({
+            success: true,
+            products,
+            pagination: {
+                currentPage: Number(page),
+                totalPages,
+                totalProducts,
+                limit: Number(limit),
+            }
+        });
     } catch (error) {
         console.error(error);
         res.status(500).json({ success: false, message: "Server error" });
